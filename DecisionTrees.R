@@ -4,7 +4,7 @@
 #Decision Trees
 library(rpart)
 library(rattle)  ## FOR Decision Tree Vis
-setwd("C:\\Users\\samst\\Desktop\\MLProject\\MlPRojectMod3")
+setwd("")
 decisionTreeData <- read.csv("fullData.csv", header=TRUE, row.names=1)
 
 testData  <- read.csv("testingData.csv", header=TRUE, row.names=1)

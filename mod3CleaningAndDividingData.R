@@ -1,4 +1,4 @@
-setwd("C:\\Users\\samst\\Desktop\\MLProject\\MlPRojectMod3")
+#setwd("")
 supervisedData <- read.csv("cleanedUCIData.csv", header=TRUE, row.names=1)
 
 # Remove fnlwgt since we dont know what it really is

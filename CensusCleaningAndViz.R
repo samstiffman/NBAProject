@@ -21,4 +21,4 @@ schoolVars <- c("HS Dropout rate", "HS grad rate", "Some College rate", "Associa
 moneyVars <- c(" <10k rate", "10-15k rate", "15-25k rate", "25-35k rate", "35-50k rate", "50-75k rate", "75-100k rate", "100-150k rate", "150-200k rate", ">200k rate")
 names(cleaned) <- c(schoolVars, moneyVars)
 # Finally write the cleaned data to CSV Format
-write.csv(cleaned,"C:\\Users\\samst\\Desktop\\MLProject\\cleanedCensusData.csv")
+write.csv(cleaned,"cleanedCensusData.csv")

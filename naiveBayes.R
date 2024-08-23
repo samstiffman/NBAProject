@@ -1,7 +1,7 @@
 library(naivebayes)
 library(e1071)
 
-setwd("C:\\Users\\samst\\Desktop\\MLProject\\MlPRojectMod3")
+#setwd("")
 naiveBayesData <- read.csv("cleanedUCIData.csv", header=TRUE, row.names=1)
 
 ### Since I made training and testing data for Decision Trees we will use those files

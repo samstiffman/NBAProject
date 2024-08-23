@@ -60,4 +60,4 @@ cleaned <- cleaned[-5]
 
 
 # Finally write the cleaned data to CSV Format
-write.csv(cleaned,"C:\\Users\\samst\\Desktop\\MLProject\\cleanedUCIData.csv")
+write.csv(cleaned,"cleanedUCIData.csv")

@@ -45,7 +45,7 @@ def prettyLatexTables(data, colNames, rowNames, tableName):
 
 ##################################################
 
-path="C:\\Users\\samst\\Desktop\\MLProject\\MLProjectMod3\\"
+path=""
 # Latex output file
 LATEXPATH = path + "\\Viz\\BayesConfMats.txt"
 LATEXFILE = open(LATEXPATH, "w")
@@ -69,8 +69,7 @@ trainData = trainData.drop("Unnamed: 0",axis=1)
 testData  = testData.drop(columns = ["WorkClass", "Education", "MaritalStatus", "Occupation", "Occupation", "RelationshipToFamily", "Race", "Sex"])
 trainData = trainData.drop(columns = ["WorkClass", "Education", "MaritalStatus", "Occupation", "Occupation", "RelationshipToFamily", "Race", "Sex"]) 
 
-########## TOODOO #####
-### Create function that automatically drops all categorical variables
+
 
 
 ###### Normalization

@@ -1,5 +1,5 @@
 #Import Data set
-setwd("C:\\Users\\samst\\Desktop\\\\MLProject\\MLProjectMod2")
+setwd("MLProjectMod2")
 cleanedCensusData <- read.csv("cleanedCensusData.csv", header=FALSE)
 #Delete Header
 cleanedCensusData <- cleanedCensusData[-1, ]

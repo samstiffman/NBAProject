@@ -6,7 +6,7 @@ library(amap)
 library(factoextra)
 
 #Import Data set
-setwd("C:\\Users\\samst\\Desktop\\MLProject\\MLProjectMod2")
+setwd("")
 cleanedCensusData <- read.csv("cleanedCensusData.csv", header=TRUE)
 
 # Prep for clustering
