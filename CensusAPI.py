@@ -54,6 +54,8 @@ ED = "DP02_0061PE,DP02_0062PE,DP02_0063PE,DP02_0064PE,DP02_0065PE,DP02_0066PE"
 # 0059PE is % household  100-150k
 # 0060PE is % household  150-200k
 # 0061PE is % household  >200k
+
+# Throwaway API Key, in a Production Environment APIKey should be kept secret
 MONEY = "DP03_0052PE,DP03_0053PE,DP03_0054PE,DP03_0055PE,DP03_0056PE,DP03_0057PE,DP03_0058PE,DP03_0059PE,DP03_0060PE,DP03_0061PE"
 APIKey = '23db7fcba79c52e2c9c19cdd98ab3e8d1d9cc844'
 APIURL = 'https://api.census.gov/data/2020/acs/acs5/profile'
