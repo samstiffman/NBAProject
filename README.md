@@ -2,6 +2,9 @@
 
 This is a repository for my Code from my Masters program project where I analyzed US Census data using various models
 
+The full project in close to its original website form can be found at:
+https://samstiffman.net/?page_id=15
+
 ## Project Files
 # Data Gathering and Cleaning
 - CensusAPI.py
